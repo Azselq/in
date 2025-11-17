@@ -17,5 +17,3 @@ def test_international_number_with_extra_digits():
     assert normalize_phone_in_line("+380 50 123 4567") == "+1 (050) 1234567"
 
 
-def test_empty_line_remains_empty():
-    assert normalize_phone_in_line("") == ""

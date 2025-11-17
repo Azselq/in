@@ -30,7 +30,10 @@ def main():
 
         for line in fin:
             normalized = normalize_phone_in_line(line)
-            fout.write(normalized + "\n")
+            fout.write(normalized + "\n")""
+
+
+
 
 
 if __name__ == "__main__":
